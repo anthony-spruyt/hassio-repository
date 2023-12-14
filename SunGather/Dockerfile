@@ -5,6 +5,9 @@ FROM $BUILD_FROM
 ARG BUILD_VERSION
 ARG BUILD_ARCH
 
+# Install Python packages on system level --> PEP668
+ENV PIP_BREAK_SYSTEM_PACKAGES=1
+
 COPY requirements.txt ./
 RUN apk add --no-cache python3-dev py3-pip g++ yq
 # pycryptodomex 3.14 currently fails to compile for arm64
