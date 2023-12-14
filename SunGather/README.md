@@ -17,9 +17,9 @@
     <br />
     <a href="https://sungather.net">Website Sungather.net</a>
     ·
-    <a href="https://github.com/bohdan-s/hassio-repository/issues">Report Bug</a>
+    <a href="https://github.com/anthony-spruyt/hassio-repository/issues">Report Bug</a>
     ·
-    <a href="https://github.com/bohdan-s/hassio-repository/issues">Request Feature</a>
+    <a href="https://github.com/anthony-spruyt/hassio-repository/issues">Request Feature</a>
   </p>
 </div>
 
@@ -28,11 +28,11 @@
 
 <b>Join the Discord Server to discuss, suggestions or for any help: <a href="https://discord.gg/7j2MVsT5wn">SunGather Discord</a></b>
 
-<b>If you are looking for the stand alone SunGather, see: <a href="https://github.com/bohdan-s/SunGather">SunGather</a></b>
+<b>If you are looking for the stand alone SunGather, see: <a href="https://github.com/anthony-spruyt/SunGather">SunGather</a></b>
  
 Has HomeAssistant out of the box!
 
-If you want more functionality you can edit the /share/config.yaml file, see <a href="https://github.com/bohdan-s/SunGather/blob/main/SunGather/config-example.yaml">https://github.com/bohdan-s/SunGather/blob/main/SunGather/config-example.yaml</a>
+If you want more functionality you can edit the /share/config.yaml file, see <a href="https://github.com/anthony-spruyt/SunGather/blob/main/SunGather/config-example.yaml">https://github.com/anthony-spruyt/SunGather/blob/main/SunGather/config-example.yaml</a>
 * Console - Log directly to screen
 * MQTT - Generic MQTT Support
 * PVOutput - Load into PVOutput.org
@@ -100,7 +100,7 @@ Distributed under the GPL3 License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Project Link: [https://github.com/bohdan-s/SunGather](https://github.com/bohdan-s/SunGather)
+Project Link: [https://github.com/anthony-spruyt/SunGather](https://github.com/anthony-spruyt/SunGather)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -118,12 +118,12 @@ Project Link: [https://github.com/bohdan-s/SunGather](https://github.com/bohdan-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/bohdan-s/hassio-repository.svg?style=for-the-badge
-[contributors-url]: https://github.com/bohdan-s/hassio-repository/graphs/contributors
+[contributors-url]: https://github.com/anthony-spruyt/hassio-repository/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/bohdan-s/hassio-repository.svg?style=for-the-badge
-[forks-url]: https://github.com/bohdan-s/hassio-repository/network/members
+[forks-url]: https://github.com/anthony-spruyt/hassio-repository/network/members
 [stars-shield]: https://img.shields.io/github/stars/bohdan-s/hassio-repository.svg?style=for-the-badge
-[stars-url]: https://github.com/bohdan-s/hassio-repository/stargazers
+[stars-url]: https://github.com/anthony-spruyt/hassio-repository/stargazers
 [issues-shield]: https://img.shields.io/github/issues/bohdan-s/hassio-repository.svg?style=for-the-badge
-[issues-url]: https://github.com/bohdan-s/hassio-repository/issues
+[issues-url]: https://github.com/anthony-spruyt/hassio-repository/issues
 [license-shield]: https://img.shields.io/github/license/bohdan-s/hassio-repository.svg?style=for-the-badge
-[license-url]: https://github.com/bohdan-s/hassio-repository/blob/main/LICENSE.txt
+[license-url]: https://github.com/anthony-spruyt/hassio-repository/blob/main/LICENSE.txt
