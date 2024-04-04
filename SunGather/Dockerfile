@@ -5,14 +5,16 @@ FROM $BUILD_FROM
 ARG BUILD_VERSION
 ARG BUILD_ARCH
 
-# Install Python packages on system level --> PEP668
-ENV PIP_BREAK_SYSTEM_PACKAGES=1
-
 COPY requirements.txt ./
-RUN apk add --no-cache python3-dev py3-pip g++ yq
+RUN apk add --no-cache py3-pip yq
 # pycryptodomex 3.14 currently fails to compile for arm64
-#RUN pip install --no-cache-dir --upgrade -r requirements.txt
-RUN pip install --no-cache-dir --upgrade pycryptodomex==3.11.0 -r requirements.txt
+
+# Prepare venv
+RUN python3 -m venv venv
+
+RUN source ./venv/bin/activate && \
+    pip install --no-cache-dir --upgrade -r requirements.txt
+#RUN pip install --no-cache-dir --upgrade pycryptodomex==3.11.0 -r requirements.txt
 
 COPY SunGather/SunGather/ /
 COPY config-hassio.yaml /
